@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 两副相同的牌各N张随意配对有m个相合的概率<img src="http://www.forkosh.com/mathtex.cgi?P_{[m]}">
+title: 两副相同的牌各N张随意配对有m个相合的概率$$P_{[m]}$$
 date: 2015-06-12 22:39
 ---
 
@@ -15,9 +15,9 @@ date: 2015-06-12 22:39
   
 ----------------
 
-<img src="http://www.forkosh.com/mathtex.cgi? 
+$$
 P_{[0]}=1-1+\frac{1}{2!}-\frac{1}{3!}+\dots\pm\frac{1}{(N-2)!}\mp\frac{1}{(N-1)!}\pm\frac{1}{N!}
-">
+$$
 
 <img src="http://www.forkosh.com/mathtex.cgi? 
  P_{[1]}=1-1+\frac{1}{2!}-\frac{1}{3!}+\dots\pm\frac{1}{(N-2)!}\mp\frac{1}{(N-1)!}
