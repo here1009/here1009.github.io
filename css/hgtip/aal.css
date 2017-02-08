@@ -63,7 +63,7 @@ tt,code,kbd,samp,pre {font-size: 1em; font-family: "Courier New", Courier, monos
 table {border-collapse: collapse; border-spacing: 0; margin: 0 0 1.5em;}
 caption {text-align: left;}
 th, td {padding: .25em .5em;}
-tbody td, tbody th {border: 1px solid #000;}
+tbody td, tbody th {border: 0px solid #000;}
 tfoot {font-style: italic;}
 
 /* Form styles */
