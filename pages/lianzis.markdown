@@ -3,8 +3,6 @@ layout: page
 title: Write
 ---
 
-## {{ page.title }}
-
 <table>
 <tr>
 <td>
