@@ -10,7 +10,9 @@ table{
     border-spacing:0;
     border:none;
 }
-
+tbody td, tbody th {
+        border: 0px solid #000;
+    }
 div#main-wrap {
     width: 38em;
 margin: 1.5em auto; }
