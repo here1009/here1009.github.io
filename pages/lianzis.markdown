@@ -5,4 +5,4 @@ title: Write
 
 ## {{ page.title }}
 
-* <img src="http://imglf0.ph.126.net/ZlsgNXXUgopHa4FLQzqZqw==/6632178272444829729.jpg" alt="jiu cheng gong" height="70"/>
+* <img src="http://imglf2.ph.126.net/nEV0G3_8os50NFNRH3Yewg==/6632022141793679411.jpg" alt="jiu cheng gong" height="70"/>
