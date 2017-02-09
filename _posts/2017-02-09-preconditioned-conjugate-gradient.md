@@ -15,11 +15,11 @@ loop <br/>
 $$ \alpha_{k+1}=\frac{r_k^Tz_k}{P_k^TAP_k} $$
 $$ x_{k+1}=x_k+\alpha_kP_k $$
 $$ r_{k+1}=r_k-\alpha_kAP_k $$
-$$ if(r_{k+1} < \epsilon) exit $$
+if( \(r_{k+1} < \epsilon)\) exit <br/>
 $$ z_{k+1}=M^{-1}r_{k+1} $$
 $$ \beta_k=\frac{z_{k+1}^Tr_{k+1}}{z_k^T}{r_k} $$
 $$ P_{k+1}=z_{k+1}+\beta_kP_k $$
 end loop <br/>
-return x_{k+1}
+$$ return x_{k+1} $$
 </div>
 
