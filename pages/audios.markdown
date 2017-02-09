@@ -13,14 +13,18 @@ title: Audios
 <td>
 <a href="">2017.02.08</a>
 <br/>
+<object>
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=8494331&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+</object>
 </td>
 </tr>
 <tr>
 <td>
 <a href="">2017.02.09</a>
 <br/>
+<object>
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=8511323&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+</object>
 </td>
 </tr>
 </table> 
