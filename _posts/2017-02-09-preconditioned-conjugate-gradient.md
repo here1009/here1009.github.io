@@ -19,6 +19,7 @@ if( \(r_{k+1} < \epsilon)\) exit <br/>
 $$ z_{k+1}=M^{-1}r_{k+1} $$
 $$ \beta_k=\frac{z_{k+1}^Tr_{k+1}}{z_k^T}{r_k} $$
 $$ P_{k+1}=z_{k+1}+\beta_kP_k $$
+$$ k=k+1 $$
 end loop <br/>
 <center>
 return \(x_{k+1}\)
