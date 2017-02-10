@@ -3,7 +3,7 @@ layout: page
 title: Audios
 ---
 <video width="415" height="544" controls="controls">
-  <source src="rowrowrowyourboat.ogg" type="video/ogg" />
+  <source src="/audios/rowrowrowyourboat.ogg" type="video/ogg" />
 </video>
 <audio src="/audios/twinkletwinklelittlestar.wav"></audio>
 <table>
