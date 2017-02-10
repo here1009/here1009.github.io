@@ -29,7 +29,7 @@ $$ y=\left[
 <center>
 return \(y\) <br/>
 </center>
-&emsp;&emsp;end function
+&emsp;&emsp;end function <br/>
 
 </div>
 
