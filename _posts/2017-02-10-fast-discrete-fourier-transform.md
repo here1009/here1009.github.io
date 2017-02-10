@@ -8,7 +8,7 @@ date: 2017-02-10 24:00
 <div>
 if \( x\in \mathbb{C},\ n=2^t,\ t\in \mathbb{Z} \) <br/>
 
-&emsp;function fft(\(x\),\(n\)) <br/>
+&emsp;&emsp;function fft(\(x\),\(n\)) <br/>
 &emsp;&emsp;if(\(n==1\)) <br/>
 
 $$ y=x $$
@@ -29,7 +29,7 @@ $$ y=\left[
 <center>
 return \(y\) <br/>
 </center>
-&emsp;end function
+&emsp;&emsp;end function
 
 </div>
 
