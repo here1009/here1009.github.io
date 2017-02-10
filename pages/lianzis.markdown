@@ -1,5 +1,5 @@
 ---
-layout: write
+layout: default
 title: Write
 ---
 
