@@ -34,7 +34,7 @@ title: Write
 				</h4>
 			</div>
 			<div class="modal-body">
-				<div style="width:250px;height:250px;overflow:hidden;">
+				<div>
 					<a href="">2017.02.10</a>
 					<br/>
 					<img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong1.jpg" alt="jiu cheng gong" />
