@@ -30,6 +30,6 @@ $$ y=\left[
 return \(y\)
 </center>
 &emsp;&emsp;end function <br/>
-
+$$ \begin{array}{cc} \mathrm{Bad} & \mathrm{Better} \\ \hline \\ e^{i\frac{\pi}2} \quad e^{\frac{i\pi}2}& e^{i\pi/2} \\ \int_{-\frac\pi2}^\frac\pi2 \sin x\,dx & \int_{-\pi/2}^{\pi/2}\sin x\,dx \\ \end{array} $$
 </div>
 
