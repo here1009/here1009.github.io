@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
+<div>
 <p id="tip-info"><a href="{{ post.url }}" title="Post link">{{ page.title }}</a></p>
 <p id="tip-info">{{ page.date | date:"%B %e, %Y @ %I:%M %p" }}</p>
 {{ content }}
 <p></p>
+</div>
 <wb:share-button appkey="3776559574" addition="number" type="button"></wb:share-button>
 <div id="tip-comments">	
 	<p id="tip-info" style="margin:0em 0em 0em 0em">Related Posts</p>
