@@ -2,10 +2,13 @@
 layout: page
 title: Audios
 ---
-<video width="415" height="544" controls="controls">
-  <source src="/audios/rowrowrowyourboat.ogg" type="video/ogg" />
-</video>
-<audio src="/audios/twinkletwinklelittlestar.wav"></audio>
+<div style="width:640px;margin:30px auto">
+  <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+      poster="http://video-js.zencoder.com/oceans-clip.png"
+      data-setup="{}">
+    <source src="/audios/rowrowrowyourboat.ogg" type='video/ogg' />
+  </video>
+</div>
 <table>
 <tr>
 <td>
