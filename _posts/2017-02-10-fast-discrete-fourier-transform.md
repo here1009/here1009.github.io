@@ -19,7 +19,7 @@ $$ m=/frac{n}{2} $$
 $$ y_T=fft(x(1:2:n),m) $$
 $$ y_B=fft(x(2:2:n),m) $$
 $$ \omega=e^\frac{-2\pi i}{n} $$
-$$ d=\left[1,w,\dots,w^{m-1}\right] $$
+$$ d=\left[1,w,\dots,w^{m-1}\right]^T $$
 $$ z=d.*y_B $$
 $$ y=\left[
 		\begin{array}{c}
