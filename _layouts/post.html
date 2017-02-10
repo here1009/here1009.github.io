@@ -14,7 +14,7 @@ layout: default
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
 <!-- JiaThis Button END -->
 <div id="tip-comments">
-    <p id="tip-info">Related Posts</p>
+    <p id="tip-info" style="margin:0em 0em 0em 0em">Related Posts</p>
     <ul>
         {% for post in site.related_posts limit:3 %}
         <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; {{ post.date | date:"%B %e, %Y" }}</li>

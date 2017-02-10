@@ -27,7 +27,10 @@ $$ y=\left[
 \right] $$
 &emsp;&emsp;end if <br/>
 <center>
-return \(y\) <br/>
+return \(y\)
+<pre>
+
+</pre>
 </center>
 &emsp;&emsp;end function <br/>
 
