@@ -2,7 +2,8 @@
 layout: page
 title: Audios
 ---
-<audio src="/audios/rowrowrowyourboat.ogg"></audio>
+<video src="/audios/rowrowrowyourboat.ogg"></video> 
+<audio src="/audios/twinkletwinklelittlestar.wav"></audio>
 <table>
 <tr>
 <td>
