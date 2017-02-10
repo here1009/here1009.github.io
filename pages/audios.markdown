@@ -2,11 +2,25 @@
 layout: page
 title: Audios
 ---
-<div style="width:640px;margin:30px auto">
+<div style="width:544px;margin:30px auto">
   <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
-      poster="http://video-js.zencoder.com/oceans-clip.png"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
       data-setup="{}">
     <source src="/audios/rowrowrowyourboat.ogg" type='video/ogg' />
+  </video>
+</div>
+<div style="width:544px;margin:30px auto">
+  <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
+      data-setup="{}">
+    <source src="/audios/rowrowrowyourboat.mp4" type='video/mp4' />
+  </video>
+</div>
+<div style="width:544px;margin:30px auto">
+  <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
+      data-setup="{}">
+    <source src="/audios/twinkletwinklelittlestar.mp4" type='video/mp4' />
   </video>
 </div>
 <table>
