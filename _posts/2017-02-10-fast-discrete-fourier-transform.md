@@ -16,7 +16,7 @@ $$ y=x $$
 $$ m=\frac{n}{2} $$
 $$ y_T=fft(x(1:2:n),m) $$
 $$ y_B=fft(x(2:2:n),m) $$
-$$ \omega=e^{-\frac{2\pi i}{n}} $$
+$$ \omega=e^{{-2\pi i}/n} $$
 $$ d=\left[1,\omega,\dots,\omega^{m-1}\right]^T $$
 $$ z=d.*y_B $$
 $$ y=\left[
@@ -30,6 +30,5 @@ $$ y=\left[
 return \(y\)
 </center>
 &emsp;&emsp;end function <br/>
-$$ \begin{array}{cc} \mathrm{Bad} & \mathrm{Better} \\ \hline \\ e^{i\frac{\pi}2} \quad e^{\frac{i\pi}2}& e^{i\pi/2} \\ \int_{-\frac\pi2}^\frac\pi2 \sin x\,dx & \int_{-\pi/2}^{\pi/2}\sin x\,dx \\ \end{array} $$
 </div>
 
