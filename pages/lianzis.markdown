@@ -13,8 +13,7 @@ title: Write
 <td>
 <a href="">2017.02.10</a>
 <br/>
-![](https://github.com/here1009/here1009.github.io/blob/master/images/abc.png)
-<img src="https://github.com/here1009/here1009.github.io/blob/master/images/abc.png" alt="jiu cheng gong" width="250"/>
+<img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/abc.png" alt="jiu cheng gong" width="250"/>
 </td>
 </tr>
 </table>
