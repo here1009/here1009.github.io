@@ -16,7 +16,7 @@ title: Write
 			<div style="width:250px;height:250px;overflow:hidden;">
 				<a href="">2017.02.10</a>
 				<br/>
-				<img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong1.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal2"/>
+				<img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong2.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal2"/>
 			</div>
 		</td>
 	</tr>
@@ -59,7 +59,7 @@ title: Write
 					<a href="">2017.02.10</a>
 					<br/>
 					<center>
-					<img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong1.jpg" alt="jiu cheng gong" height="500" />
+					<img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong2.jpg" alt="jiu cheng gong" height="500" />
 					</center>
 			</div>
 		</div><!-- /.modal-content -->
