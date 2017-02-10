@@ -7,11 +7,11 @@ date: 2017-02-10 24:00
 ----------------
 <div>
 if \( x\in \mathbb{C},\ n=2^t,\ t\in \mathbb{Z} \) <br/>
-function fft(\(x\),\(n\)) <br/>
-if(\(n==1\)) <br/>
+\quad function fft(\(x\),\(n\)) <br/>
+\qquad if(\(n==1\)) <br/>
 $$ y=x $$
-\( else \) <br/>
-$$ m=/dfrac{n}{2} $$
+\qquad \( else \) <br/>
+$$ m=/frac{n}{2} $$
 $$ y_T=fft(x(1:2:n),m) $$
 $$ y_B=fft(x(2:2:n),m) $$
 $$ \omega=e^\frac{-2\pi i}{n} $$
@@ -23,10 +23,10 @@ $$ y=\left[
 		y_T-z
 		\end{array}
 \right] $$
-end if <br/>
+\qquad end if <br/>
 <center>
-return \(y\)
-end function
+return \(y\) <br/>
+\quad end function
 </center>
 </div>
 
