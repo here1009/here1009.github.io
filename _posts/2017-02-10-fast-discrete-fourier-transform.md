@@ -28,11 +28,8 @@ $$ y=\left[
 &emsp;&emsp;end if <br/>
 <center>
 return \(y\)
-<pre>
-
-</pre>
 </center>
 &emsp;&emsp;end function <br/>
-
+<p></p>
 </div>
 
