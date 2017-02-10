@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: write
 title: Write
 ---
 
