@@ -3,14 +3,14 @@ layout: page
 title: About
 ---
 
-## About the Author
+<p id="tip-info"> About the Author </p>
 
 
 Contact me:
 
 + Email:     gaoyantao@pwmat.com
 
-## About the blog
+<p id="tip-info"> About the blog </p>
 
 [Jekyll][j]  [Github][g]  [hg tip][h]
 

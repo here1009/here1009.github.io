@@ -3,7 +3,7 @@ layout: page
 title: Archives
 ---
 
-## {{ page.title }}
+<p id="tip-info"> {{ page.title }} </p>
 
 <ul>
     {% for post in site.posts %}

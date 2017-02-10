@@ -3,30 +3,30 @@ layout: page
 title: Sources
 ---
 
-## Useful Links
+<p id="tip-info"> Useful Links</p>
 * [Jekyll][a]
 * [git simple guide][d]
 * [Linuxtoy][l]
 
-##android
+<p id="tip-info">android</p>
 * [Android Developers][c]
 
-##cuda
+<p id="tip-info">cuda</p>
 * [cuda toolkit document][e]
 * [GTC][f]
 
-##papers
+<p id="tip-info">papers</p>
 * [Google scholar][b]
 * [MDPI - Open Access Publishing][g]
 * [logic][m]
 
-##tools
+<p id="tip-info">tools</p>
 * [ico][h]
 
-##latex
+<p id="tip-info">latex</p>
 * [LaTeX编辑部][i]
 
-##sublime
+<p id="tip-info">sublime</p>
 * [sublime viedos][j]
 * [package control][k]
 

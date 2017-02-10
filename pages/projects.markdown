@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-## {{ page.title }}
+<p id="tip-info"> {{ page.title }} </p>
 
 * [cuda examples][l]
 

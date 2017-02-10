@@ -3,7 +3,7 @@ layout: page
 title: People
 ---
 
-## {{ page.title }}
+<p id="tip-info"> {{ page.title }} </p>
 
 + [Ruobing Zheng][a]
 
