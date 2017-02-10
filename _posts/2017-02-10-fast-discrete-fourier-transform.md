@@ -30,6 +30,6 @@ $$ y=\left[
 return \(y\)
 </center>
 &emsp;&emsp;end function <br/>
-<p></p>
+
 </div>
 
