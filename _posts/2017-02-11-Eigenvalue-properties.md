@@ -1,7 +1,7 @@
 ---
 layout: post
-title: DFT Properties
-date: 2017-02-11 22:03
+title: Eigenvalue Properties
+date: 2017-02-11 22:50
 ---
 
 ----------------
