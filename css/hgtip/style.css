@@ -2,7 +2,7 @@
 html, body {
     background-color: #fbfbfb;
     color: #111111;
-    font-family:Calluna-Exljbris,hyyjf,serif;
+    font-family:Calluna-Exljbris,serif;
     font-size:medium;
 }
 .box {
@@ -37,7 +37,7 @@ td{
 }
 
 div#post{
-    font-family:Inconsolata,hyyjf;
+    font-family:Inconsolata,serif;
     font-size:large;
 }
 div#jita{
