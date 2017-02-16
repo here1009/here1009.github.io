@@ -6,49 +6,49 @@ title: Write
 <div id="lianzi">
 <a href="">2017.02.09</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong1.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal1"/>
 </div>
 </div>
 <div id="lianzi">
 <a href="">2017.02.10</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/jiuchenggong2.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal2"/>
 </div>
 </div>
 <div id="lianzi">
 <a href="">2017.02.11</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/xia.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal3"/>
 </div>
 </div>
 <div id="lianzi">
 <a href="">2017.02.12</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/zhi.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal4"/>
 </div>
 </div>
 <div id="lianzi">
 <a href="">2017.02.13</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/yue.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal5"/>
 </div>
 </div>
 <div id="lianzi">
 <a href="">2017.02.14</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/huang.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal6"/>
 </div>
 </div>
 <div id="lianzi">
 <a href="">2017.02.15</a>
 <br/>
-<div "id=zi">
+<div id="zi">
 <img src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/di.jpg" alt="jiu cheng gong" width="250" data-toggle="modal" data-target="#myModal7"/>
 </div>
 </div>
