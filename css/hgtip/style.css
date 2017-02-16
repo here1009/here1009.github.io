@@ -3,10 +3,31 @@ html, body {
     background-color: #fbfbfb;
     color: #111111;
     font-family: "Palatino Linotype", Calluna-Exljbris, Georgia, "Times New Roman", Times, serif; 
-
 }
+.box {
+    margin-bottom: 2em;
+}
+.box .box-title {
+    background-color: #7eb8dd;
+    color: #fff;
+    padding: 1em;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 1.2em;
+}
+.box .box-content {
+    background-color: #fff;
+    padding: 1em;
+}
+td,th{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
 div#post{
-    font-family:hyyjf,Inconsolata,DejaVuSansMono;
+    font-family:hyyjf,HelveticaNeue;
 }
 div#jita{
     border:1px solid black;
