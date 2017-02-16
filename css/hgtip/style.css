@@ -8,13 +8,9 @@ html, body {
 div#main-wrap {
     width: 38em;
 margin: 1.5em auto; }
-div#main-wrap-wider {
-    width: 80em;
-margin: 1.5em auto; }
 
 div#content {
-width: 80em;
-margin: 1.5em auto; }
+margin: 1.5em 0em; }
 
 div#excerpt {
 display: none; }
@@ -55,10 +51,9 @@ white-space: nowrap; }
 
 /* Header styles. */
 div#header h1 {
-    width: 38em;
-    margin: 1.5em auto;
     font-size: 1.5em;
     line-height: 1.125em;
+    margin: 0;
 text-align: left; }
 div#header h1 a {
     color: #a00;
@@ -80,13 +75,10 @@ margin-bottom: 3em; }
 
 /* Footer styles. */
 div#footer {
-    width: 38em;
-margin: 1.5em auto;
     color: #666666;
     text-align: center;
-    /*margin-top: 3em;*/
-    /*margin-bottom: 6em;*/ 
-}
+    margin-top: 3em;
+margin-bottom: 6em; }
 
 /* Link styles. */
 a {
