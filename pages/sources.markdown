@@ -20,9 +20,6 @@ title: Sources
 * [MDPI - Open Access Publishing][g]
 * [logic][m]
 
-<p id="tip-info"style="margin:0em 0em 0em -5em">tools</p>
-* [ico][h]
-
 <p id="tip-info" style="margin:0em 0em 0em -5em">latex</p>
 * [LaTeX编辑部][i]
 
