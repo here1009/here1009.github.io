@@ -26,8 +26,6 @@ html, body {
 .box .box-content {
     background-color: #fff;
     padding: 1em;
-    max-width: 800px;
-    overflow:overlay;
 }
 th{
     padding: 8px;
@@ -81,11 +79,11 @@ div#zi{
     border:0px solid black;
 }
 div#main-wrap {
-    width: 38em;
+    width: 600px;
 margin: 1.5em auto; }
 
 div#main-wrap-wider {
-    width: 76em;
+    width: 1000px;
 margin: 1.5em auto; }
 div#content {
 margin: 1.5em auto; }
