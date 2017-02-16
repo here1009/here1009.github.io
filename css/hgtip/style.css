@@ -13,6 +13,7 @@ html, body {
 }
 .box {
     margin-bottom: 2em;
+
 }
 .box .box-title {
     background-color: #7eb8dd;
@@ -25,6 +26,8 @@ html, body {
 .box .box-content {
     background-color: #fff;
     padding: 1em;
+    max-width: 800px;
+    overflow:overlay;
 }
 th{
     padding: 8px;
