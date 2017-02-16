@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wpost
 title: PWMAT
 ---
 
