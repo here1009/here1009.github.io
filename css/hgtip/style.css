@@ -14,23 +14,28 @@ div#jita{
     margin-top:1em;
     margin-right:0.2em;
 }
+img#zi{
+    width:160px;
+}
 div#lianzi{
     border:1px solid black;
-    width:277px;
-    height:295px;
+    width:10em;
+    height:12em;
     float:left;
     margin-top:1em;
     margin-right:0.2em;
     overflow:hidden;
+    background-color:#f5f5f5
 }
 div#zi{
     border:1px solid black;
-    width:277px;
-    height:277px;
+    width:10em;
+    height:10em;
     float:left;
-    margin-top:1em;
-    margin-right:0.2em;
+    margin-top:0em;
+    margin-right:0em;
     overflow:hidden;
+    border:1px solid black;
 }
 div#main-wrap {
     width: 38em;
