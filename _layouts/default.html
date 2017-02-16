@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html xmlns:wb="http://open.weibo.com/wb">
 <head>
-<meta charset="utf-8">
-<meta content="高岩涛 博客" name="keywords">
-<meta content="高岩涛 博客" name="description">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{% if page.title == 'Home' %}
-<title>Gao Yantao's Blog</title>
-{% else %}
-<title>{{ page.title }}</title>
-{% endif %}
-<link href="/css/bootstrap.css" rel="stylesheet">
-<link href="/css/bootstrap-theme.css" rel="stylesheet">
-<!-- syntax highlighting css -->
-<link rel="stylesheet" type="text/css" href="/css/syntax.css">
-<!-- homepage css -->
-<link rel="stylesheet" type="text/css" href="/css/hgtip/aal.css">
-<link rel="stylesheet" type="text/css" href="/css/hgtip/calluna.css">
-<link rel="stylesheet" type="text/css" href="/css/hgtip/style.css">
-<link rel="stylesheet" type="text/css" href="/css/hgtip/toc.css">
-<link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
-<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <meta content="高岩涛 博客" name="keywords">
+    <meta content="高岩涛 博客" name="description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.title == 'Home' %}
+    <title>Gao Yantao's Blog</title>
+    {% else %}
+    <title>{{ page.title }}</title>
+    {% endif %}
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.css" rel="stylesheet">
+    <!-- syntax highlighting css -->
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    <!-- homepage css -->
+    <link rel="stylesheet" type="text/css" href="/css/hgtip/aal.css">
+    <link rel="stylesheet" type="text/css" href="/css/hgtip/calluna.css">
+    <link rel="stylesheet" type="text/css" href="/css/hgtip/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/hgtip/toc.css">
+    <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-
-<div id="main-wrap">
-    <div id="header">
-        <h1><a href="/" title="Gao Yantao">Gao Yantao's Page</a></h1>
+    <div class="headerabove">
+        <div id="mai-wrap">
+            <div id="header">
+                <h1><a href="/" title="Gao Yantao">Gao Yantao's Page</a></h1>
+            </div>
+        </div>
     </div>
-    <p id="navigation">
-    <a href="/pages/archives.html">ARCHIVE</a> &mdash;
-    <a href="/pages/sources.html">SOURCE</a> &mdash;
-    <a href="/pages/lianzis.html">LIANZI</a> &mdash;
-    <a href="/pages/audios.html">AUDIO</a> &mdash;
-    <a href="/pages/people.html">PEOPLE</a> &mdash;
-    <a href="/pages/pwmat.html">PWmat</a> &mdash;
-    <a href="/pages/about.html">ABOUT</a>
-    </p>
-</div>
-{{ content  }}
-<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
-<script type="text/javascript" async
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    <div id="main-wrap">
+
+        <p id="navigation">
+            <a href="/pages/archives.html">ARCHIVE</a> &mdash;
+            <a href="/pages/sources.html">SOURCE</a> &mdash;
+            <a href="/pages/lianzis.html">LIANZI</a> &mdash;
+            <a href="/pages/audios.html">AUDIO</a> &mdash;
+            <a href="/pages/people.html">PEOPLE</a> &mdash;
+            <a href="/pages/pwmat.html">PWmat</a> &mdash;
+            <a href="/pages/about.html">ABOUT</a>
+        </p>
+    </div>
+    {{ content  }}
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+    <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </body>
 
