@@ -1,14 +1,14 @@
 permalink: /blog/:year/:month/:title.html 
 include: ['.htaccess']
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
-markdown: kramdown
-#markdown: redcarpet
+# markdown: kramdown
+markdown: redcarpet
 highlights: pygments
 url: 
-lsi: true
+lsi: false
 safe: true
 timezone: Asia/Shanghai
-auto: true 
+auto: false 
 
 paginate: 8
 paginate_path: "page:num"
@@ -20,4 +20,4 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+    extension: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
