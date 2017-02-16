@@ -4,7 +4,7 @@ title: Archives
 ---
 
 <p id="tip-info" style="margin:0em 0em 0em -5em"> {{ page.title }} </p>
-
+---------
 <ul>
     {% for post in site.posts %}
 
