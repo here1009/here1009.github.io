@@ -6,7 +6,7 @@ html, body {
 
 }
 div#post{
-    font-family:hyyjf,Inconsolata;
+    font-family:hyyjf,Inconsolata,DejaVuSansMono;
 }
 div#jita{
     border:1px solid black;
