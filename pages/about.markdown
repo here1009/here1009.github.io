@@ -13,6 +13,11 @@ Contact me:
 
 [Jekyll][j]  [Github][g]  [hg tip][h]
 
+<div id="main-wrap">
+    <div id="footer">
+        Follow me: <a href="http://weibo.com/206064154">Weibo</a> 
+    </div>
+</div>
 [g]: https://github.com/here1009
 [h]: http://hgtip.com
 [j]: http://jekyllrb.com
