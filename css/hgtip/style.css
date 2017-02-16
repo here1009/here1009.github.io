@@ -13,8 +13,10 @@ div#main-wrap-wider {
     width: 76em;
 margin: 1.5em auto; }
 div#content {
-margin: 1.5em 0em; }
+margin: 1.5em auto; }
 
+div#content-wider {
+margin: 1.5em auto; }
 div#excerpt {
 display: none; }
 
