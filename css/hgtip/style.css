@@ -2,7 +2,8 @@
 html, body {
     background-color: #fbfbfb;
     color: #111111;
-    font-family: "Palatino Linotype", Calluna-Exljbris, Georgia, "Times New Roman", Times, serif; 
+    font-family:Calluna-Exljbris,hyyjf,serif;
+    font-size:medium;
 }
 .box {
     margin-bottom: 2em;
@@ -24,6 +25,7 @@ td,th{
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid #ddd;
+    font-size:small; 
 }
 
 div#post{
