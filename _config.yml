@@ -15,9 +15,14 @@ paginate_path: "page:num"
 
 kramdown:
   auto_ids: true,
-  footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
+  input: GFM
+  extensions:
+      - autolink
+      - footnotes
+      - smart
+  syntax_highlighter: rouge
 redcarpet:
     extension: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
