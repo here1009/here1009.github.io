@@ -9,6 +9,9 @@ div#main-wrap {
     width: 38em;
 margin: 1.5em auto; }
 
+div#main-wrap-wider {
+    width: 76em;
+margin: 1.5em auto; }
 div#content {
 margin: 1.5em 0em; }
 
