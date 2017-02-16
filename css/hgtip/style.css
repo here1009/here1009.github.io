@@ -39,7 +39,8 @@ td{
     line-height: 1.42857143;
     vertical-align: top;
     border: 1px solid #ddd;
-    font-size:medium; 
+    font-size:medium;
+    white-space: nowrap; 
 }
 
 div#post{
@@ -77,11 +78,11 @@ div#zi{
     border:0px solid black;
 }
 div#main-wrap {
-    width: 40%;
+    width: 38em;
 margin: 1.5em auto; }
 
 div#main-wrap-wider {
-    width: 80%;
+    width: 76em;
 margin: 1.5em auto; }
 div#content {
 margin: 1.5em auto; }
