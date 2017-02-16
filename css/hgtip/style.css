@@ -5,7 +5,9 @@ html, body {
     font-family: "Palatino Linotype", Calluna-Exljbris, Georgia, "Times New Roman", Times, serif; 
 
 }
-
+div#post{
+    font-family:Inconsolata;
+}
 div#jita{
     border:1px solid black;
     width:277px;

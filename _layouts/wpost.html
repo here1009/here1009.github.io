@@ -4,10 +4,12 @@ layout: default
 <div id="main-wrap-wider">
     <div id="content-wider">
         <center>
+            <div id="post">
             <p id="tip-info"><a href="{{ post.url }}" title="Post link">{{ page.title }}</a></p>
             <p id="tip-info">{{ page.date | date:"%B %e, %Y @ %I:%M %p" }}</p>
             {{ content }}
             <p></p>
+            </div>
         </center>
     </div>
 </div>
