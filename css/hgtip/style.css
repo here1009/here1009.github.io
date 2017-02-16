@@ -6,7 +6,10 @@ html, body {
 
 }
 div#main-wrap {
-    width: 80%;
+    width: 38em;
+margin: 1.5em auto; }
+div#main-wrap-wider {
+    width: 80em;
 margin: 1.5em auto; }
 
 div#content {
