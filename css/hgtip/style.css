@@ -21,6 +21,16 @@ div#lianzi{
     float:left;
     margin-top:1em;
     margin-right:0.2em;
+    overflow:hidden;
+}
+div#zi{
+    border:1px solid black;
+    width:277px;
+    height:277px;
+    float:left;
+    margin-top:1em;
+    margin-right:0.2em;
+    overflow:hidden;
 }
 div#main-wrap {
     width: 38em;
