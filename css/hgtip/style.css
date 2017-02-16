@@ -14,6 +14,14 @@ div#jita{
     margin-top:1em;
     margin-right:0.2em;
 }
+div#jita{
+    border:1px solid black;
+    width:277px;
+    height:295px;
+    float:left;
+    margin-top:1em;
+    margin-right:0.2em;
+}
 div#main-wrap {
     width: 38em;
 margin: 1.5em auto; }
