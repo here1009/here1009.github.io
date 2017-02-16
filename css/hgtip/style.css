@@ -133,7 +133,7 @@ div#header h1 a {
 }
 div#header h1 a:hover {
     text-decoration: none;
-color: black; }
+color: #d9534f; }
 
 p#tagline {
     color: #666666;
@@ -155,7 +155,9 @@ margin-bottom: 6em; }
 /* Link styles. */
 a {
     color:#286090;
-text-decoration: none; }
+text-decoration: none; 
+text-shadow: 0px 0px 1px #252109;
+}
 a:hover {
 text-decoration: underline; }
 
