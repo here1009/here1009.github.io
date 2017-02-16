@@ -1,9 +1,8 @@
 ---
 layout: post
-title: PWMAT
----
+title: PWMAT [Homepage](http://www.pwmat.com)
 
-[Homepage](http://www.pwmat.com)
+---
 >
 | PRECISION | MPI | PP | JOB | TABLE | Etot | dEtot |
 | --- | --- | --- | --- | --- | --- | --- |
