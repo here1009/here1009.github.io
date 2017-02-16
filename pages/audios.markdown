@@ -2,6 +2,20 @@
 layout: wpost
 title: Audios
 ---
+<div style="width:277px;height:277px;margin:5px auto;float:left;">
+  <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="277" height="264"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
+      data-setup="{}">
+    <source src="/audios/rowrowrowyourboat.mp4" type='video/mp4' />
+  </video>
+</div>
+<div style="width:277px;height:277px;margin:5px auto;float:left;">
+  <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="277" height="264"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
+      data-setup="{}">
+    <source src="/audios/rowrowrowyourboat.mp4" type='video/mp4' />
+  </video>
+</div>
 
 <table>
 <tr>
