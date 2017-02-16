@@ -6,10 +6,10 @@ html, body {
     font-size:medium;
 }
 .headerabove {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: rgba(255,255,255,0.75);
-    background-color: #24292e;
+    background-color: #14395f;
 }
 .box {
     margin-bottom: 2em;
