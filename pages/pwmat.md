@@ -3,9 +3,6 @@ layout: post
 title: PWMAT
 ---
 
-##{{ page.title }}
-================
-
 [PWMat homepage](http://www.pwmat.com)
 <div>
 | PRECISION | MPI | PP | JOB | TABLE | Etot | dEtot |
