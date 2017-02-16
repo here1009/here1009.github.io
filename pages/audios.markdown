@@ -43,3 +43,11 @@ title: Audios
     <source src="/audios/wet.wav" type='audio/wav' />
   </audio>
 </div>
+<div id="jita">
+<a href="">2017.02.16</a>
+  <audio id="video_3" class="video-js vjs-default-skin" controls preload="none" width="277" height="264"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
+      data-setup="{}">
+    <source src="/audios/rockabyebaby.wav" type='audio/wav' />
+  </audio>
+</div>
