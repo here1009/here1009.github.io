@@ -77,11 +77,11 @@ div#zi{
     border:0px solid black;
 }
 div#main-wrap {
-    width: 38em;
+    width: 40%;
 margin: 1.5em auto; }
 
 div#main-wrap-wider {
-    width: 76em;
+    width: 80%;
 margin: 1.5em auto; }
 div#content {
 margin: 1.5em auto; }
