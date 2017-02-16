@@ -15,8 +15,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-header, nav, section, article, aside, footer
+caption, header, nav, section, article, aside, footer
 {border: 0; margin: 0; outline: 0; padding: 0; background: transparent; vertical-align: baseline;}
 
 blockquote, q {quotes: none;}
@@ -25,8 +24,6 @@ blockquote:before,blockquote:after,q:before,q:after {content: ''; content: none;
 header, nav, section, article, aside, footer {display: block;}
 
 /* Basic styles */
-body {background: #fff; color: #000; font: 1em/1.5em "Helvetica Neue", Helvetica, Arial, "Liberation Sans", "Bitstream Vera Sans", sans-serif;}
-html>body {font-size: 16px;}
 
 img {display: inline-block; vertical-align: bottom;}
 
