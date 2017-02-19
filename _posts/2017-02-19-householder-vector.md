@@ -6,7 +6,7 @@ date: 2017-02-19 20:28
 
 ----------------
 <div>
-Given \(x \in \mathbb{R}^m \), this function computes \(v \in \mathbb{R}^m\) with \(v(1)=1\) and \(\beta \in \mathbb{R} \) such that \(P=I_m-\beta v v^T\) is orthogonal and \(P_x=\| x \|_2 e_1\).<br/>
+Given \(x \in \mathbb{R}^m \), this function computes \(v \in \mathbb{R}^m\) with \(v(1)=1\) and \(\beta \in \mathbb{R} \) such that \(P=I_m-\beta v v^T\) is orthogonal and \(Px=\| x \|_2 e_1\).<br/>
 <div style="padding-left:50px;padding-top:20px;">
 function \([v,\beta]\)=house(\(x\)) <br/>
 &emsp;\(m\)=length(\(x\)),\(\sigma=x(2:m)^Tx(2:m)\),\(v=\left[ \begin{array}{c} 1 \\ x(2:m) \end{array}\right]\)<br/>
