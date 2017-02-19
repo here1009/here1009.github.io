@@ -5,6 +5,12 @@ html, body {
     font-family:Calluna-Exljbris,serif;
     font-size:medium;
 }
+div#post hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #f0ad4e;
+}
 .headerabove {
     padding-top: 5px;
     padding-bottom: 5px;

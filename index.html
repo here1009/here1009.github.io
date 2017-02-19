@@ -4,7 +4,7 @@ title: Home
 ---
 <div id="main-wrap">
     <div id="content">
-        <div id="toc">
+        <div id="post">
             {% for post in site.posts limit: 5 %}
             <p id="tip-info" style="margin:1em 0em 0em -5em"><a href="{{ post.url }}" title="Post link">{{ post.title }}&raquo;</a></p>
             <p style="margin:0em 0em 0em -5em" id="tip-info">{{ post.date | date:"%H:%M %B %e, %Y" }}</p>
