@@ -5,7 +5,7 @@ html, body {
     font-family:Calluna-Exljbris,serif;
     font-size:medium;
 }
-hr {
+div#post.hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
