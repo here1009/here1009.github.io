@@ -13,7 +13,7 @@ $$
     c & s\\
     -s & c
     \end{array}
-\right]
+\right]^T
 \left[
     \begin{array}{c}
     a\\
