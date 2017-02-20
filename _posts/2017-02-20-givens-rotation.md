@@ -10,8 +10,8 @@ Given scalars a and b, this function computes \(c=cos(\theta)\) and \(s=sin(\the
 $$
 \left[
     \begin{array}{cc}
-    c s\\
-    -s c
+    c & s\\
+    -s $ c
     \end{array}
 \right]
 \left[
