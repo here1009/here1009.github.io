@@ -11,7 +11,7 @@ $$
 \left[
     \begin{array}{cc}
     c & s\\
-    -s $ c
+    -s & c
     \end{array}
 \right]
 \left[
