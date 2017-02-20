@@ -26,7 +26,7 @@ $$
     0
     \end{array}
 \right]
-$$ .
+$$
 <div style="padding-left:50px;padding-top:20px;">
 function \([c,s]\)=givens(a,b) <br/>
 &emsp;if \(b=0\)<br/>
