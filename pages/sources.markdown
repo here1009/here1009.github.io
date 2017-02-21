@@ -4,7 +4,7 @@ title: Sources
 ---
 
 <p id="tip-info" style="margin:0em 0em 0em -5em"> 线性代数</p>
-* [linear][n]
+* [麻省理工公开课：线性代数][n]
 <p id="tip-info" style="margin:0em 0em 0em -5em"> Useful Links</p>
 * [Jekyll][a]
 * [git simple guide][d]
