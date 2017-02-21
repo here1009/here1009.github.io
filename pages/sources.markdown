@@ -3,6 +3,8 @@ layout: page
 title: Sources
 ---
 
+<p id="tip-info" style="margin:0em 0em 0em -5em"> 线性代数</p>
+* [linear][n]
 <p id="tip-info" style="margin:0em 0em 0em -5em"> Useful Links</p>
 * [Jekyll][a]
 * [git simple guide][d]
@@ -40,3 +42,4 @@ title: Sources
 [j]:https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2
 [k]:https://packagecontrol.io/
 [m]:http://logika.uwb.edu.pl/studies/index.php
+[n]:http://open.163.com/special/opencourse/daishu.html
