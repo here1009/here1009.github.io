@@ -59,3 +59,11 @@ title: Audios
     <source src="/audios/olifor.wav" type='audio/wav' />
   </audio>
 </div>
+<div id="jita">
+<a href="">2017.02.25</a>
+  <audio id="video_3" class="video-js vjs-default-skin" controls preload="none" width="230" height="230"
+      poster="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/66.jpg"
+      data-setup="{}">
+    <source src="/audios/zuizhonghuanxiang.wav" type='audio/wav' />
+  </audio>
+</div>
