@@ -10,7 +10,7 @@ Given a symmetric matrix \(A \in \mathbb{R}^{n\times n}\) and a unit 2-norm vect
 <br/>
 <br/>
 \(k=0,\beta_0=1,q_0=0,r_0=q_1\)<br/>
-while \(k=0\) or \(\beta_k \ne 0\)
+while \(k=0\) or \(\beta_k \ne 0\)<br/>
 &emsp;\(q_{k+1}=r_k/\beta_k\)<br/>
 &emsp;\(k=k+1\)<br/>
 &emsp;\(\alpha_k=q_k^TAq_k\)<br/>
