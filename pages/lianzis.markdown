@@ -127,10 +127,16 @@ title: Write
 <a href="">2017.02.27</a>
 <br/>
 <div id="zi">
-<img id="zi" src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/shen.jpg" alt="jiu cheng gong"  data-toggle="modal" data-target="#myModal17"/>
+<img id="zi" src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/shen.jpg" alt="jiu cheng gong"  data-toggle="modal" data-target="#myModal18"/>
 </div>
 </div>
-
+<div id="lianzi">
+<a href="">2017.02.28</a>
+<br/>
+<div id="zi">
+<img id="zi" src="https://raw.githubusercontent.com/here1009/here1009.github.io/master/images/bian.jpg" alt="jiu cheng gong"  data-toggle="modal" data-target="#myModal19"/>
+</div>
+</div>
 
 
 
