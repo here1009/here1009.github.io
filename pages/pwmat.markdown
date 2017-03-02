@@ -5,7 +5,6 @@ title: PWMAT
 
 [Homepage](http://www.pwmatus.com)
 >
-<div>
  | PRECISION | MPI | PP | JOB | TABLE | PARAMETER | VALUE | Etot | dEtot | maxForce(\(eV\cdot A^{-1}\)) | time(sec) |
  | --- | --- | --- | --- | --- | --- | --- | --- | --- |
  | SINGLE | 1_1 | NCPP-PD03-PBE | RELAXLDA | ONE_PARAMETER | CONVERGE | EASY | -.82696262076405E+03 | 0.2581E-04 | 0.8414171059E-02 | 3.04949903488159      |
@@ -3368,4 +3367,3 @@ title: PWMAT
  | SINGLE | 2_2 | USPP-SOFT-PBE | RELAXHSE | ONE_PARAMETER | COULOMB | 11 0.1 | -- | -- | ERR# | ERR# |
  | SINGLE | 2_2 | USPP-SOFT-PBE | RELAXHSE | ONE_PARAMETER | COULOMB | 12 0.1 | -- | -- | ERR# | ERR# |
  | SINGLE | 2_2 | USPP-SOFT-PBE | RELAXHSE | ONE_PARAMETER | COULOMB | 13 0.1 | -- | -- | ERR# | ERR# |
- </div>
