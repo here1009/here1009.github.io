@@ -2,7 +2,9 @@
 layout: wpost
 title: PWMAT
 ---
+<div>
 maxForce(\(eV\dot A^{-1}\)) 
+</div>
 [Homepage](http://www.pwmatus.com)
 >
  | PRECISION | MPI | PP | JOB | TABLE | PARAMETER | VALUE | Etot | dEtot | maxForce(\(eV\dot A^{-1}\)) | time(sec) |
