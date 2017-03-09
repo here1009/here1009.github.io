@@ -1,7 +1,6 @@
-git add .
 timestamp=`date +%Y%m%d%r`
-echo $timestamp"<br/>" >> README.md;
+log=`git log | sed -n '1p' | sed  's/commit//'`
+echo $timestamp"precommit: "$log"<br/>" >> README.md;
+git add .
 git commit -am "update"
-#log=`git log | sed -n '1p' | sed  's/commit//'`
-
 git push
