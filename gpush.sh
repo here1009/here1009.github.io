@@ -2,6 +2,6 @@ git add .
 timestamp=`date +%Y%m%d%r`
 git commit -am "update"
 log=`git log | sed -n '1p' | sed  's/commit//'`
-echo $timestamp' - '$log >> readme;
+echo $timestamp' - '$log >> README.md;
 
 git push
