@@ -6,7 +6,7 @@ date: 2017-03-13 22:08
 
 ----------------
 <div>
-Suppose \(Q=Q_1 \cdots Q_r\) where the \(Q_j=I_m-\beta_jv^{(j)}v^{(j)}^T\) are stored in factored form. This algorithm computes matrices \(W,Y \in \mathbb{R}^{m\times r}\) such that \(Q=I_m-WY^T\).
+Suppose \(Q=Q_1 \cdots Q_r\) where the \(Q_j=I_m-\beta_jv_jv_j^T\) are stored in factored form. This algorithm computes matrices \(W,Y \in \mathbb{R}^{m\times r}\) such that \(Q=I_m-WY^T\).
 <br/>
 <br/>
 for \(j=1,n\)<br/>
