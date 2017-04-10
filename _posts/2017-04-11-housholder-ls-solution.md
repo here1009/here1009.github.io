@@ -6,10 +6,10 @@ date: 2017-04-11 03:19
 
 ----------------
 <div>
-if \(A\in \mathbb{R}^{m\times n}\) has full column rank and \(b \in \mathbb{R}^m\), then the following algorithm computes a vector \(x_{LS}\in \mathbb{R}^n\) such that \| Ax_{LS}-b \|_2 is minimum.
+if \(A\in \mathbb{R}^{m\times n}\) has full column rank and \(b \in \mathbb{R}^m\), then the following algorithm computes a vector \(x_{LS}\in \mathbb{R}^n\) such that \(\|Ax_{LS}-b\|_2\) is minimum.
 <br/>
 <br/>
-Overwrite A with its QR factorization.<br/>
+Overwrite \(A\) with its QR factorization.<br/>
 for \(j=1:n\)
 &emsp;\(v=\left[
     \begin{array}{c}
