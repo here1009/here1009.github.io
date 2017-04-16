@@ -26,7 +26,7 @@ while \(\tau > 0\) and \(r < n\)<br/>
 &emsp;for \(i=r+1:n\)<br/>
 &emsp;&emsp;\(c(i)=c(i)-A(r,i)^2\)<br/>
 &emsp;end<br/>
-&emsp;\(\tau=max{c(r+1),\cdots,c(n)}\)<br/>
+&emsp;\(\tau=max\{c(r+1),\cdots,c(n)\}\)<br/>
 end<br/>
 &emsp;<br/>
 </div>
