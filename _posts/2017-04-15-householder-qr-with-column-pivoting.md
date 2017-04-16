@@ -6,7 +6,7 @@ date: 2017-04-15 22:29
 
 ----------------
 <div>
-Given \(A\in \mathbb{R}^{m\times n}\) with ~m /gt n~, then following algorithm computes ~r=rank(A)~ and the factorization with ~Q=H_1\cdots H_r~ and  
+Given \(A\in \mathbb{R}^{m\times n}\) with \(m /gt n\), then following algorithm computes \(r=rank(A)\) and the factorization with \(Q=H_1\cdots H_r\) and  
 <br/>
 <br/>
 Overwrite \(A\) with its QR factorization.<br/>
