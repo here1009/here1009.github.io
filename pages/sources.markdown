@@ -29,6 +29,7 @@ title: Sources
 * [logic][m]
 
 <p id="tip-info" style="margin:0em 0em 0em -5em">latex</p>
+* [LaTeX常用符号][r]
 * [LaTeX编辑部][i]
 
 <p id="tip-info" style="margin:0em 0em 0em -5em">sublime</p>
@@ -52,3 +53,4 @@ title: Sources
 [o]:http://th.fhi-berlin.mpg.de/th/fhi98md/doc/main/node13.html
 [p]:http://bigdft.org/Wiki/index.php?title=BigDFT_website
 [q]:http://molmod.ugent.be/deltacodesdft
+[r]:http://www.mohu.org/info/symbols/symbols.htm
