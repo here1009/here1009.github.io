@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Householder QR With Column Pivoting
-date: 2017-04-15 22:29
+title: Householder Bidiagonalization
+date: 2017-04-17 18:56
 ---
 
 ----------------
@@ -10,24 +10,15 @@ Given \(A\in \mathbb{R}^{m\times n}\) with \(m \gt n\), the following algorithm 
  <br/>
 <br/>
 for \(j=1:n\)<br/>
-&emsp;\(c(j)=A(1:m,j)^TA(1:m,j)\)<br/>
-end<br/>
-\(r=0\)<br/>
-\(r=max{c(1),\cdots,c(n)}\)<br/>
-while \(\tau > 0\) and \(r < n\)<br/>
-&emsp;\(r=r+1\)<br/>
-&emsp;Find smallest \(k\) with \(r \le k \le n\) so \(c(k)=\tau\).<br/>
-&emsp;\(piv(r)=k\)<br/>
-&emsp;\(A(1:m,r) \leftrightarrow A(1:m,k)\)<br/>
+&emsp;\([v,\beta]=house(A(j:m,j))\)<br/>
+&emsp;\(A(j:m,j:n)=(I_{m-j+1}-\beta v v^T)A(j:m,j:n)\)<br/>
+&emsp;\(A(j+1:m,j)=v(2:m-j+1)\)<br/>
+&emsp;if \(j \le n-1\)<br/>
 &emsp;\(c(r) \leftrightarrow c(k)\)<br/>
-&emsp;\([v,\beta]=house(A(r:m,r))\)<br/>
-&emsp;\(A(r:m,r:n)=(I_m-r+1-\beta v v^T)A(r:m,r:n)\)<br/>
-&emsp;\(A(r+1:m,r)=v(2:m-r+1)\)<br/>
-&emsp;for \(i=r+1:n\)<br/>
-&emsp;&emsp;\(c(i)=c(i)-A(r,i)^2\)<br/>
+&emsp;&emsp;\([v,\beta]=house(A(j:j+1,n)^T)\)<br/>
+&emsp;&emsp;\(A(j:m,j+1:n)=A(j:m,j+1:n)(I_{n-j}-\beta v v^T)\)<br/>
+&emsp;&emsp;\(A(j,j+2:n)=v(2:n-j)^T\)<br/>
 &emsp;end<br/>
-&emsp;\(\tau=max\{c(r+1),\cdots,c(n)\}\)<br/>
 end<br/>
-&emsp;<br/>
 </div>
 
