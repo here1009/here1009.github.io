@@ -4,6 +4,16 @@ title: Sources
 ---
 
 
+<p id="tip-info" style="margin:0em 0em 0em -5em"> C++</p>
+* [The Boost C++ Libraries][s]
+* [C++ Annotations][t]
+* [How to Think Like a Computer Scientist][u]
+* [Open Data Structure][v]
+* [Introduction to Design Patterns in C++ with Qt 4][w]
+* [C++ GUI Programming with Qt 3][x]
+* [Cross-Platform GUI Programming with wxWidgets][y]
+* [The Rook's Guide to C++][z]
+* [An Introduction to GCC][aa]
 <p id="tip-info" style="margin:0em 0em 0em -5em"> Physics</p>
 * [Step-by-step description of calculational aspects][o]
 * [bigDFT][p]
@@ -54,3 +64,12 @@ title: Sources
 [p]:http://bigdft.org/Wiki/index.php?title=BigDFT_website
 [q]:http://molmod.ugent.be/deltacodesdft
 [r]:http://www.mohu.org/info/symbols/symbols.htm
+[s]:https://theboostcpplibraries.com/
+[t]:http://www.icce.rug.nl/documents/cplusplus/
+[u]:http://greenteapress.com/thinkcpp/index.html
+[v]:http://opendatastructures.org/ods-cpp/
+[w]:http://www.informit.com/store/introduction-to-design-patterns-in-c-plus-plus-with-9780131879058
+[x]:http://www.informit.com/store/c-plus-plus-gui-programming-with-qt-3-9780131240728
+[y]:http://www.informit.com/store/cross-platform-gui-programming-with-wxwidgets-9780131473812
+[z]:https://rooksguide.org/
+[aa]:http://www.network-theory.co.uk/docs/gccintro/
