@@ -19,24 +19,24 @@ title: PWMAT
 ## default: 
 > TDDFT_DETAIL=1 NUM_BAND NUM_BAND
 ## **description:**
-> Expand `$ \psi_j(t) $` in terms of the adiabatic eigenstates `$\phi_i(t)$`:
+> Expand $ \psi_j(t) $ in terms of the adiabatic eigenstates $\phi_i(t)$:
 >
-```math
+$$
 \psi_j(t)=\sum_i C_{ji}(t)\phi_i(t)
-```
+$$
 > Define the Adiabatic window [m1,m2],
 >
-```math
+$$
 \psi_j(t)=\phi_j(t), j=1,m1-1
-```
-```math
+$$
+$$
 \psi_j(t)=\sum_i C_{ji}(t)\phi_i(t), j=m1,mstate;i=m1,m2
-```
+$$
 >
  |  | | | | 
 ---|---|---|---|---|----
-`$[m1,m2]$` | Adiabatic window, the `$[1,m1-1]$` will always be occupied by the first`$\psi_{j,j=1,m1-1}$` states.  | `$\phi_i,{i=m1,m2}$`  | `$m2\in [m1,NUM\_BAND]$`
-[1,msate] | Wavefunction index | `$\psi_j,j=1,mstate$`| `$mstate\in [m1,m2]$` |
+$[m1,m2]$ | Adiabatic window, the $[1,m1-1]$ will always be occupied by the first$\psi_{j,j=1,m1-1}$ states.  | $\phi_i,{i=m1,m2}$  | $m2\in [m1,NUM\_BAND]$
+[1,msate] | Wavefunction index | $\psi_j,j=1,mstate$| $mstate\in [m1,m2]$ |
 
 > *usually m2 is smaller than NUM_BAND by a few states, cause the last few states maybe not converged well.
 
@@ -44,8 +44,8 @@ title: PWMAT
 
  | | |
 ---|---
-`$[m1,m2]$`|  
-`$mstate$` |
+$[m1,m2]$|  
+$mstate$ |
 
 ## example1--default settings
 - **atom.config:**
@@ -113,7 +113,7 @@ NO.   ENERGY(eV) OCCUPATION
 25      5.5223   0.00000
 26      5.6578   0.00000
 ```
-> we know that the `$[1,16]$` states are occupied, and total num of band is 26. Then we can set the TDDFT_DETAIL=m1 m2 mstate,`$m1 \in [1,16]$`, `$m2 \in [m1,26]$`, `$mstate \in [m1,m2]$`
+> we know that the $[1,16]$ states are occupied, and total num of band is 26. Then we can set the TDDFT_DETAIL=m1 m2 mstate,$m1 \in [1,16]$, $m2 \in [m1,26]$, $mstate \in [m1,m2]$
 
 
 ```
@@ -140,9 +140,9 @@ IN.PSP2   = 33-As.LDA.fhi.UPF
 
  | | | | | |
 |:---|:---|:---|:---|:---|
-`$T1,T2,n1$` | `$T1=T/F$` |eigen energy, dipole, `$occ(i)$` per n1 steps|the output will be in file OUT.TDDFT1, MDDIPOLE.RSPACE. One can use plot_TDDFT.f to read and output OUT.TDDFT1.|
-| | `$T2=T/F$`|`$C_{ij}$` per n1 steps|
-`$T3,n2$`|`$T3=T/F$`|output all the wavefunctions and charge densities per n2 steps for restart.|the output will be in file OUT.TDDFT,OUT.WG,OUT.RHO and directory TDDOS/. This can be very expensive, so use large n2.
+$T1,T2,n1$ | $T1=T/F$ |eigen energy, dipole, $occ(i)$ per n1 steps|the output will be in file OUT.TDDFT1, MDDIPOLE.RSPACE. One can use plot_TDDFT.f to read and output OUT.TDDFT1.|
+| | $T2=T/F$|$C_{ij}$ per n1 steps|
+$T3,n2$|$T3=T/F$|output all the wavefunctions and charge densities per n2 steps for restart.|the output will be in file OUT.TDDFT,OUT.WG,OUT.RHO and directory TDDOS/. This can be very expensive, so use large n2.
 
 ## example3:OUTPUT FILES
 
@@ -173,15 +173,15 @@ TDDOS|OUT.WG.\*,TDEIGEN.\*,OUT.EIGEN.\*|update per 50 steps|used by ploting DOS
 
 |||
 ---|---|
-|`$itype1$` | |
-|`$0$`|no external input term.|
-|`$1$`|read vext_tddft from file IN.VEXT_TDDFT(all capital, same format as in IN.VEXT)
-|`$2$`|`$Vext\_tddft(r)=(x-x_0)a(1)+(x-x_0)^2a(2)+(y-y_0)a(3)+(y-y_0)^2a(4)+(z-z_0)a(5)+(z-z_0)^2a(6)$`, (`$ x_0 $`,`$y_0$`,`$z_0$`) is center of AL box.all a(i) atomic unit. output file OUT.VEXT_TDDFT
-|`$3$`|`$Vext\_tddft(r)=a(1)e^{-[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]/a(2)^2}$`.a(1) Hartree unit, a(2) Bohr unit. output file OUT.VEXT_TDDFT
-|`$-1$`|Not use real space format, but use G-space,it wil use IN.A_FIELD
+|$itype1$ | |
+|$0$|no external input term.|
+|$1$|read vext_tddft from file IN.VEXT_TDDFT(all capital, same format as in IN.VEXT)
+|$2$|$Vext\_tddft(r)=(x-x_0)a(1)+(x-x_0)^2a(2)+(y-y_0)a(3)+(y-y_0)^2a(4)+(z-z_0)a(5)+(z-z_0)^2a(6)$, ($ x_0 $,$y_0$,$z_0$) is center of AL box.all a(i) atomic unit. output file OUT.VEXT_TDDFT
+|$3$|$Vext\_tddft(r)=a(1)e^{-[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]/a(2)^2}$.a(1) Hartree unit, a(2) Bohr unit. output file OUT.VEXT_TDDFT
+|$-1$|Not use real space format, but use G-space,it wil use IN.A_FIELD
 
 ## example6: itype1=1
->first we can get IN.VEXT_TDDFT by set ityp1=2. [`$Vext\_tddft(r)=(x-x0)*0.002 $`]
+>first we can get IN.VEXT_TDDFT by set ityp1=2. [$Vext\_tddft(r)=(x-x0)*0.002 $]
 
 
 ```
@@ -228,7 +228,7 @@ TDDOS|OUT.WG.\*,TDEIGEN.\*,OUT.EIGEN.\*|update per 50 steps|used by ploting DOS
 ![image](https://github.com/here1009/here1009.github.io/blob/master/images/plots/6.png?raw=true)
 
 ## example7: itype1=2
-itype1=2.[`$Vext\_tddft(r)=(x-x_0)*0.002+(x-x_0)^2*0.001$`]
+itype1=2.[$Vext\_tddft(r)=(x-x_0)*0.002+(x-x_0)^2*0.001$]
 
 ```
 1           1
@@ -252,7 +252,7 @@ itype1=2.[`$Vext\_tddft(r)=(x-x_0)*0.002+(x-x_0)^2*0.001$`]
 ![image](https://github.com/here1009/here1009.github.io/blob/master/images/plots/7.png?raw=true)
 
 ## example8: itype1=3
-itype1=3.[`$Vext\_tddft(r)=1.0*e^{-[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]/2.0^2}$`]
+itype1=3.[$Vext\_tddft(r)=1.0*e^{-[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]/2.0^2}$]
  
 ```
 1           1
@@ -284,9 +284,9 @@ itype1=3.[`$Vext\_tddft(r)=1.0*e^{-[(x-x_0)^2+(y-y_0)^2+(z-z_0)^2]/2.0^2}$`]
 > This controls the G-sapce external potential input for tddft calculation.(only used when TDDFT_SPACE=-1,...;)
 > the tddft hamiltonian 
 
-```math
+$$
 H=-1/2 (\nabla_x + i a\_field1)^2-1/2(\nabla_y+ i a\_field2)^2-1/2(\nabla_z + i a\_field3)^2
-```
+$$
 
 ## example9:IN.A_FIELD
 
@@ -322,10 +322,10 @@ H=-1/2 (\nabla_x + i a\_field1)^2-1/2(\nabla_y+ i a\_field2)^2-1/2(\nabla_z + i 
 
 |||
 ---|---
-`$ityp2$`|
-0|`$ftddft(t)=1.0$`
-1|read in `$ftddft(i)$` from IN.TDDFT_TIME
-2|`$ftddft(t)=b(1)e^{-(t-b(2))^2/b(3)^2)}\sin(b(4)t+b(5))$`,`$b(2)$`,`$b(3)$` fs unit,output OUT.TDDFT_TIME
+$ityp2$|
+0|$ftddft(t)=1.0$
+1|read in $ftddft(i)$ from IN.TDDFT_TIME
+2|$ftddft(t)=b(1)e^{-(t-b(2))^2/b(3)^2)}\sin(b(4)t+b(5))$,$b(2)$,$b(3)$ fs unit,output OUT.TDDFT_TIME
 
 >file IN.TDDFT_TIME likes:
 
@@ -339,9 +339,9 @@ N ftddft(N)
 
 |||
 ---|---
-`$ityp1$`|
-`$\ne -1$`| `$H(t)=H_0+Vext\_tddft(r)ftddft(t)$`
-`$-1$`| `$H(t)=-1/2(\nabla_x+i A_x*ftddft(t))-1/2(\nabla_y+i A_y*ftddft(t))^2-1/2(\nabla_z+i A_z*ftddft(t))^2$`
+$ityp1$|
+$\ne -1$| $H(t)=H_0+Vext\_tddft(r)ftddft(t)$
+$-1$| $H(t)=-1/2(\nabla_x+i A_x*ftddft(t))-1/2(\nabla_y+i A_y*ftddft(t))^2-1/2(\nabla_z+i A_z*ftddft(t))^2$
 
 ## example10:itype1=2,itype2=1.
  
@@ -495,7 +495,7 @@ N ftddft(N)
 # 8.IN.CC/IN.CC_2
 
 ## descrition:
-> The files are used to initialize the `$C_{ij}$` for TDDFT when **FREMI-DIRAC=-1**, which is used as `$\psi_j(t)=\sum_i C_{ji}(t)\phi_i(t)$`.
+> The files are used to initialize the $C_{ij}$ for TDDFT when **FREMI-DIRAC=-1**, which is used as $\psi_j(t)=\sum_i C_{ji}(t)\phi_i(t)$.
 > 
 > spin=1, use IN.CC
 > spin=2, use both IN.CC and IN.CC_2
@@ -511,10 +511,10 @@ N ftddft(N)
 ....
 ```
 
-> Line `$j$` specify the `$\psi_j, j=1,mstate$`.
-> Define pair (i,CC), `$i$` is the index of adiabatic states, CC is the value of `$C_{ji}$`.
+> Line $j$ specify the $\psi_j, j=1,mstate$.
+> Define pair (i,CC), $i$ is the index of adiabatic states, CC is the value of $C_{ji}$.
 > The first column specify the number of pairs.
-> If m, one index of adiabatic states, is not specified , then `$C_{jm}=0$`.
+> If m, one index of adiabatic states, is not specified , then $C_{jm}=0$.
 
 ## example14:IN.CC
  
@@ -612,10 +612,10 @@ TDDFT_STIME=stime
 
 |||
 ---|---
-`$spin$`|IN.ATOM=atom.config from MOVEMENT
-`$1,22$`|OUT.WG-->IN.WG;OUT.RHO-->IN.RHO;OUT.TDDFT-->IN.TDDFT
-`$2$`|OUT.WG-->IN.WG;OUT.RHO-->IN.RHO:OUT.WG_2-->IN.WG_2:OUT.RHO_2-->IN.RHO_2:OUT.TDDFT-->IN.TDDFT"
-`$222$`|OUT.WG-->IN.WG;OUT.RHO-->IN.RHO;OUT.RHO_SOM-->IN.RHO_SOM;OUT.TDDFT-->IN.TDDFT
+$spin$|IN.ATOM=atom.config from MOVEMENT
+$1,22$|OUT.WG-->IN.WG;OUT.RHO-->IN.RHO;OUT.TDDFT-->IN.TDDFT
+$2$|OUT.WG-->IN.WG;OUT.RHO-->IN.RHO:OUT.WG_2-->IN.WG_2:OUT.RHO_2-->IN.RHO_2:OUT.TDDFT-->IN.TDDFT"
+$222$|OUT.WG-->IN.WG;OUT.RHO-->IN.RHO;OUT.RHO_SOM-->IN.RHO_SOM;OUT.TDDFT-->IN.TDDFT
 
 ## example4:RESTART
 > One TDDFT. killed at 329 step.
